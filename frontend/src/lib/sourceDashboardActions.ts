@@ -10,6 +10,26 @@ export type SourceDashboardAction = {
 
 export const sourceDashboardActions: SourceDashboardAction[] = [
   {
+    "id": "sales-outreach-operations",
+    "label": "Sales Outreach Operations",
+    "description": "Open Sales Outreach Operations workflows inside this existing merged suite.",
+    "href": "/campaign-planner",
+    "sourceProjects": [
+      "ai-sales-outreach",
+      "AISalesTrainingSimulator",
+      "AiMarketingCopyGenerator",
+      "AIBrandVoiceConsistencyChecker"
+    ],
+    "examples": [
+      "Campaign Planner",
+      "Lead Enrichment",
+      "Outreach Inbox",
+      "Reply Classification",
+      "Sequence Performance"
+    ],
+    "count": 5
+  },
+  {
     "id": "contacts",
     "label": "Contacts",
     "description": "Contacts actions optimized from donor dashboards and exposed as one AI Sales Outreach action group.",

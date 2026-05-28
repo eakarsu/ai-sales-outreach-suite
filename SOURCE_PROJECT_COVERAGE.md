@@ -11,3 +11,4 @@
 | AiMarketingCopyGenerator | 12 | 8 | 1 | 2 | Reply Analysis<br>Meeting Booking<br>AI tools<br>Source tables<br>Dashboard actions |
 | AIAdCopyCreativeGenerator | 12 | 8 | 1 | 2 | Meeting Booking<br>Deliverability<br>AI tools<br>Source tables<br>Dashboard actions |
 | salesforce | 12 | 8 | 1 | 2 | Deliverability<br>Pipeline<br>AI tools<br>Source tables<br>Dashboard actions |
+| AIBrandVoiceConsistencyChecker | 0 | 0 | 0 | 1 | Campaign Planner<br>Lead Enrichment<br>Outreach Inbox<br>Reply Classification<br>Sequence Performance |

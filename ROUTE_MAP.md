@@ -20,3 +20,13 @@
 | /documents | Documents workspace |
 | /source-tables | Source table inventory and rows |
 | /profiles | User and role settings |
+
+- `/campaign-planner`
+
+- `/lead-enrichment`
+
+- `/outreach-inbox`
+
+- `/reply-classification`
+
+- `/sequence-performance`

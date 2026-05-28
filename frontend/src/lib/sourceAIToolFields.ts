@@ -10,6 +10,60 @@ export type SourceAIToolField = {
 };
 
 export const sourceAIToolFieldsByToolId: Record<string, SourceAIToolField[]> = {
+  "sales-outreach-operations-copilot": [
+    {
+      "name": "objective",
+      "label": "Objective",
+      "type": "textarea",
+      "defaultValue": "Improve the Sales Outreach Operations workflow and produce a decision-ready output.",
+      "placeholder": "Describe the goal, customer, case, or decision needed",
+      "options": [],
+      "required": true,
+      "source": "ai-sales-outreach, AISalesTrainingSimulator, AiMarketingCopyGenerator, AIBrandVoiceConsistencyChecker"
+    },
+    {
+      "name": "source_context",
+      "label": "Source Context",
+      "type": "textarea",
+      "defaultValue": "Paste records, documents, transcript text, metrics, case notes, or source details for Sales Outreach Operations.",
+      "placeholder": "Paste the source context to analyze",
+      "options": [],
+      "required": true,
+      "source": "ai-sales-outreach, AISalesTrainingSimulator, AiMarketingCopyGenerator, AIBrandVoiceConsistencyChecker"
+    },
+    {
+      "name": "workflow_focus",
+      "label": "Workflow Focus",
+      "type": "select",
+      "defaultValue": "Campaign Planner",
+      "placeholder": "Select the workflow",
+      "options": [
+        "Campaign Planner",
+        "Lead Enrichment",
+        "Outreach Inbox",
+        "Reply Classification",
+        "Sequence Performance"
+      ],
+      "required": true,
+      "source": "ai-sales-outreach, AISalesTrainingSimulator, AiMarketingCopyGenerator, AIBrandVoiceConsistencyChecker"
+    },
+    {
+      "name": "output_format",
+      "label": "Output Format",
+      "type": "select",
+      "defaultValue": "Professional action plan",
+      "placeholder": "Select output format",
+      "options": [
+        "Professional action plan",
+        "Evidence table",
+        "Risk review",
+        "Checklist",
+        "Executive summary"
+      ],
+      "required": true,
+      "source": "ai-sales-outreach, AISalesTrainingSimulator, AiMarketingCopyGenerator, AIBrandVoiceConsistencyChecker"
+    }
+  ],
   "contacts-source-workflow": [
     {
       "name": "objective",

@@ -16,3 +16,15 @@
 | AI Tools | Intelligence Layer | Per-feature AI tools and source-workflow request forms |
 | Documents | Core Platform | Uploads, exports, attachments |
 | Source Tables | Core Platform | Donor schema/table inventory and seeded editable rows |
+
+## Sales Outreach Operations
+
+- `campaign-planner` - Campaign Planner: Audience, offer, channels, sequences, goals, owner assignments, and launch readiness.
+- `lead-enrichment` - Lead Enrichment: Company data, contact roles, buying signals, qualification notes, and confidence scoring.
+- `outreach-inbox` - Outreach Inbox: Replies, objections, intent signals, next-best action, routing, and follow-up timing.
+- `reply-classification` - Reply Classification: Positive replies, objections, unsubscribes, referrals, timing asks, and escalation rules.
+- `sequence-performance` - Sequence Performance: Open rates, reply rates, meetings booked, variants, drop-off points, and optimization notes.
+
+## Priority current app enhancement: Sales Outreach Operations
+
+Source evidence: ai-sales-outreach, AISalesTrainingSimulator, AiMarketingCopyGenerator, AIBrandVoiceConsistencyChecker.

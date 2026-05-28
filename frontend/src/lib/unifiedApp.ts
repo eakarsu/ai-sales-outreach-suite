@@ -239,6 +239,76 @@ const features = [
       { label: 'Updated', value: "45", note: 'This week' },
     ],
   },
+  {
+    slug: "campaign-planner",
+    title: "Campaign Planner",
+    href: "/campaign-planner",
+    category: "Sales Outreach Operations",
+    icon: Workflow,
+    summary: "Audience, offer, channels, sequences, goals, owner assignments, and launch readiness.",
+    bullets: ["Operational workspace","AI assisted review","Audit-ready output"],
+    metrics: [
+      { label: "Campaign Planner", value: "38", note: 'Active items' },
+      { label: 'Exceptions', value: "4", note: 'Need review' },
+      { label: 'Due Soon', value: "7", note: 'Next 14 days' },
+    ],
+  },
+  {
+    slug: "lead-enrichment",
+    title: "Lead Enrichment",
+    href: "/lead-enrichment",
+    category: "Sales Outreach Operations",
+    icon: Workflow,
+    summary: "Company data, contact roles, buying signals, qualification notes, and confidence scoring.",
+    bullets: ["Operational workspace","AI assisted review","Audit-ready output"],
+    metrics: [
+      { label: "Lead Enrichment", value: "49", note: 'Active items' },
+      { label: 'Exceptions', value: "5", note: 'Need review' },
+      { label: 'Due Soon', value: "8", note: 'Next 14 days' },
+    ],
+  },
+  {
+    slug: "outreach-inbox",
+    title: "Outreach Inbox",
+    href: "/outreach-inbox",
+    category: "Sales Outreach Operations",
+    icon: Workflow,
+    summary: "Replies, objections, intent signals, next-best action, routing, and follow-up timing.",
+    bullets: ["Operational workspace","AI assisted review","Audit-ready output"],
+    metrics: [
+      { label: "Outreach Inbox", value: "60", note: 'Active items' },
+      { label: 'Exceptions', value: "6", note: 'Need review' },
+      { label: 'Due Soon', value: "9", note: 'Next 14 days' },
+    ],
+  },
+  {
+    slug: "reply-classification",
+    title: "Reply Classification",
+    href: "/reply-classification",
+    category: "Sales Outreach Operations",
+    icon: Workflow,
+    summary: "Positive replies, objections, unsubscribes, referrals, timing asks, and escalation rules.",
+    bullets: ["Operational workspace","AI assisted review","Audit-ready output"],
+    metrics: [
+      { label: "Reply Classification", value: "71", note: 'Active items' },
+      { label: 'Exceptions', value: "7", note: 'Need review' },
+      { label: 'Due Soon', value: "10", note: 'Next 14 days' },
+    ],
+  },
+  {
+    slug: "sequence-performance",
+    title: "Sequence Performance",
+    href: "/sequence-performance",
+    category: "Sales Outreach Operations",
+    icon: Workflow,
+    summary: "Open rates, reply rates, meetings booked, variants, drop-off points, and optimization notes.",
+    bullets: ["Operational workspace","AI assisted review","Audit-ready output"],
+    metrics: [
+      { label: "Sequence Performance", value: "82", note: 'Active items' },
+      { label: 'Exceptions', value: "8", note: 'Need review' },
+      { label: 'Due Soon', value: "11", note: 'Next 14 days' },
+    ],
+  },
 ] as const;
 
 const aiFeatures = [
@@ -286,6 +356,7 @@ export const featureNav: NavItem[] = allFeatures.map((feature) => ({ label: feat
 export const featureCatalog: FeatureDefinition[] = allFeatures.map((feature) => ({ title: feature.title, href: feature.href, category: feature.category, summary: feature.summary, bullets: [...feature.bullets] }));
 
 export const featureFamilies = [
+  { name: "Sales Outreach Operations", features: ["Campaign Planner","Lead Enrichment","Outreach Inbox","Reply Classification","Sequence Performance"] },
   {
     "name": "Sales Data",
     "features": [

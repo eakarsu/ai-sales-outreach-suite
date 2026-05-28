@@ -1,5 +1,21 @@
 export const sourceProjectTools = [
   {
+    "id": "sales-outreach-operations-copilot",
+    "title": "Sales Outreach Operations Copilot",
+    "category": "Sales Outreach Operations",
+    "description": "AI tool for Sales Outreach Operations inside the existing merged suite.",
+    "defaultPrompt": "Review the Sales Outreach Operations context. Return workflow summary, risks, missing information, recommended actions, owner assignments, and audit-ready output.",
+    "inputLabel": "Sales Outreach Operations context",
+    "outputLabel": "Sales Outreach Operations AI response",
+    "signals": [
+      "Campaign Planner",
+      "Lead Enrichment",
+      "Outreach Inbox",
+      "Reply Classification",
+      "Sequence Performance"
+    ]
+  },
+  {
     "id": "contacts-source-workflow",
     "title": "Contacts Source Workflow",
     "category": "Sales Data",

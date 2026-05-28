@@ -8,3 +8,5 @@
 - LinkedIn Personalization operating view
 - Reply Analysis operating view
 - Meeting Booking operating view
+
+- Sales Outreach Operations operating view
